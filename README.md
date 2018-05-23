@@ -1,3 +1,3 @@
 # node-countries-light-app
 
-Damn noting for the moment
+Damn nothing for the moment
