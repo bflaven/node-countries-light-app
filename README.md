@@ -102,10 +102,9 @@ For those, who are looking for more information, a full article is available wit
 For those, you want to get the code directly, you can use the following command.
 
 ```
-$ git clone git@github.com:bflaven/node-countries-light-app.git # or clone your own fork
+$ git clone https://github.com/bflaven/node-countries-light-app.git
 $ cd node-countries-light-app
 $ npm install
-$ npm start
 
 ```
 
