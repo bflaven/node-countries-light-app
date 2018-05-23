@@ -60,6 +60,8 @@ You can read the article or not. Here is a quick presentation of the files conta
 **1. The directory tree**<br />
 Here is the tree of the application that is contains in the directory **node-countries-light-app** 
 
+See point 2 for the explanations of postman_files directory.
+
 ```
 node-countries-light-app/
 |-- _app
@@ -71,6 +73,9 @@ node-countries-light-app/
         |-- countrie.routes.js
 |-- _config
     |-- database.config.js
+|-- postman_files
+    |-- coll_node_countries_light_app.postman_collection.json
+    |-- env_node_countries_light_app.postman_environment.json
 |-- _node_modules
     |-- ... 
 |-- _public
@@ -86,7 +91,7 @@ node-countries-light-app/
 ```
 
 **2. JSON files for Postman**<br />
-All the files used in Postman are in the directory **postman_files**
+All the files used in Postman are in the directory **postman_files**. The files are stored in this directory, just for convenience. It has no use in the operation of the application.
 
 Filename  | Description |
 ------------- | ------------- |
