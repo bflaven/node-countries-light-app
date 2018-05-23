@@ -30,7 +30,7 @@ it('should return a correct message response', function(done) {
     .end(function(err, res) {      
       expect(res.body).to.have.property("message");
       expect(res.body.message).to.not.equal(null);
-      expect(res.body.message).to.equal("Hello, hello, Yallah, Welcome to Country Light App. A prototype to play with Countries");
+      expect(res.body.message).to.equal("Yallah, Welcome to Country Light App. A prototype to play with Countries");
       done();
 
     });
