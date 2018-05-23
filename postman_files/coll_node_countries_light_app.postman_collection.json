@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "1dd35d91-178f-4de9-8bee-921529ba8d36",
+		"name": "coll_node_countries_light_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1_welcome_api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{api_root_url}}",
+					"host": [
+						"{{api_root_url}}"
+					]
+				},
+				"description": "It outputs the welcome message."
+			},
+			"response": []
+		},
+		{
+			"name": "2_post_country_api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\":\"Tunisia\", \"tld\":\".tn\", \"cca2\":\"TN\", \"capital\":\"Tunis\", \"callingCode\":\"216\" }"
+				},
+				"url": {
+					"raw": "{{api_root_url_countries}}",
+					"host": [
+						"{{api_root_url_countries}}"
+					]
+				},
+				"description": "It enables to post a country in the database"
+			},
+			"response": []
+		},
+		{
+			"name": "3_get_all_countries_api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{api_root_url_countries}}",
+					"host": [
+						"{{api_root_url_countries}}"
+					]
+				},
+				"description": "List all the countries"
+			},
+			"response": []
+		},
+		{
+			"name": "4_get_single_note_id_api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{api_root_url_countries}}/5afd8c9cad99cd0a44dfc3aa",
+					"host": [
+						"{{api_root_url_countries}}"
+					],
+					"path": [
+						"5afd8c9cad99cd0a44dfc3aa"
+					]
+				},
+				"description": "Retrieving a single Country eg 5afd8c9cad99cd0a44dfc3aa"
+			},
+			"response": []
+		},
+		{
+			"name": "5_put_update_single_country_id_api",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"name\":\"Italy\", \"tld\":\".it\", \"cca2\":\"IT\", \"capital\":\"Rome\", \"callingCode\":\"39\" }"
+				},
+				"url": {
+					"raw": "{{api_root_url_countries}}/5afd93c76ba7060f07aefdf3",
+					"host": [
+						"{{api_root_url_countries}}"
+					],
+					"path": [
+						"5afd93c76ba7060f07aefdf3"
+					]
+				},
+				"description": "Updating a Country eg 5afd8c9cad99cd0a44dfc3aa"
+			},
+			"response": []
+		},
+		{
+			"name": "6_delete_single_note_id_api",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"1 - One Title Note, again again again update\", \"content\":\"1 - One Content Note, again again again update\"}"
+				},
+				"url": {
+					"raw": "{{api_root_url_countries}}/5b041860e3333f03fee37041",
+					"host": [
+						"{{api_root_url_countries}}"
+					],
+					"path": [
+						"5b041860e3333f03fee37041"
+					]
+				},
+				"description": "Deleting a Country using the countryId"
+			},
+			"response": []
+		}
+	]
+}
