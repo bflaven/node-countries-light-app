@@ -2,6 +2,8 @@
 ## Node, API, Postman - Buid a simple but complete REST API with Node, tested made with Chai and Newman, documented with Apidoc
 A quick A to Z tutorial for non-developers who want to create a basic POC of an API with Node, Mongo. There is also explanations on how to add tests with Chai and a documentation with Apidoc.
 
+[Read more on flaven.fr](http://flaven.fr/2018/05/node-api-postman-buid-a-simple-but-complete-rest-api-with-node-tested-with-chai-and-newman-documented-with-apidoc/)
+
 
 ### Requirements
 
@@ -99,7 +101,7 @@ coll_node_countries_light_app.postman_collection.json | The collection of querie
 env_node_countries_light_app.postman_environment.json  | The name for file environment that is imported in Postam under the name ENV_NODE_COUNTRIES_LIGHT_APP. The file contains the 2 variables {{api_root_url}} and {{api_root_url_countries}}
 
 **3. More information**<br />
-For those, who are looking for more information, a full article is available with additional resources is available @ [flaven.fr](http://flaven.fr/)
+For those, who are looking for more information, a full article is available with additional resources is available @ [flaven.fr](http://flaven.fr/2018/05/node-api-postman-buid-a-simple-but-complete-rest-api-with-node-tested-with-chai-and-newman-documented-with-apidoc/)
 
 
 ### Clone this repository
