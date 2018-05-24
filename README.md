@@ -106,7 +106,7 @@ For those, who are looking for more information, a full article is available wit
 
 ### Clone this repository
 
-For those, you want to get the code directly, you can use the following command.
+For those who want to get the code directly, you can use the following command.
 
 ```
 $ git clone https://github.com/bflaven/node-countries-light-app.git
