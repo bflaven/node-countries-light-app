@@ -115,6 +115,8 @@ $ npm install
 
 ```
 
+**After this, you can jump directly to the point 4. CREATE THE DB of the article** @ [flaven.fr](http://flaven.fr/2018/05/node-api-postman-buid-a-simple-but-complete-rest-api-with-node-tested-with-chai-and-newman-documented-with-apidoc/)
+
 
 
 
