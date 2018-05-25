@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Yallah Yallah, Welcome to Country Light App. A prototype to play with Countries",
   "main": "server.js",
+  "homepage": "http://flaven.fr/2018/05/node-api-postman-buid-a-simple-but-complete-rest-api-with-node-tested-with-chai-and-newman-documented-with-apidoc/",
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/bflaven/node-countries-light-app"
+  },
   "scripts": {
     "start": "node server.js",
     "test": "mocha test/*.js --timeout 15000"
